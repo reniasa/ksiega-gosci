@@ -1,0 +1,134 @@
+@import 'reset.css';
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,300');
+#Wrapper {
+  background-color: #2f3238;
+}
+.notes-frame {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #2f3238;
+}
+.title-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.title {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2em;
+  font-weight: 300;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+.note-box {
+  width: 480px;
+  height: 180px;
+  margin-bottom: 32px;
+}
+.note-input-frame {
+  padding: 20px;
+}
+.note-input {
+  border: none;
+  font-family: 'Ubuntu-Mono', monospace;
+  font-size: 0.7em;
+  width: 100%;
+  height: 100%;
+  resize: none;
+  overflow: hidden;
+  white-space: -moz-pre-wrap !important;
+  /* Mozilla, since 1999 */
+  white-space: -pre-wrap;
+  /* Opera 4-6 */
+  white-space: -o-pre-wrap;
+  /* Opera 7 */
+  white-space: pre-wrap;
+  /* css-3 */
+  word-wrap: break-word;
+  /* Internet Explorer 5.5+ */
+  white-space: -webkit-pre-wrap;
+  /* Newer versions of Chrome/Safari*/
+  word-break: break-all;
+  white-space: normal;
+}
+.note-content-frame {
+  height: 67%;
+}
+.note-content {
+  font-family: 'Segoe UI', monospace;
+  font-weight: 400;
+  font-size: 0.7em;
+  padding: 20px;
+}
+
+
+.note-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  height: 33%;
+}
+.id-frame {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  width: 50%;
+  padding-left: 26px;
+}
+.id {
+  max-width: 50%;
+  font-family: 'Segoe UI', monospace;
+  font-weight: 400;
+  font-size: 0.8em;
+  color:white;
+}
+.pile-button-frame {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  width: 50%;
+  padding-right: 10px;
+}
+.pile-button {
+  align-self: center;
+  border: none;
+  color: white;
+  padding: 12px 64px;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+
+.aligner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.aligner-right {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.aligner-left {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.aligner-item {
+  max-width: 50%;
+}
+.aligner-item-top {
+  align-self: flex-start;
+}
+.aligner-item-bottom {
+  align-self: flex-end;
+}
